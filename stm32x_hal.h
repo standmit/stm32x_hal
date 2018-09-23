@@ -1,5 +1,5 @@
-#ifndef STM32_MPU6050LIB_STM32X_HAL_STM32X_HAL_H_
-#define STM32_MPU6050LIB_STM32X_HAL_STM32X_HAL_H_
+#ifndef STM32X_HAL_H_
+#define STM32X_HAL_H_
 
 #if 	defined (STM32F030x6) || \
 		defined (STM32F030x8) || \
@@ -174,4 +174,4 @@
 
 #endif
 
-#endif /* STM32_MPU6050LIB_STM32X_HAL_STM32X_HAL_H_ */
+#endif /* STM32X_HAL_H_ */
