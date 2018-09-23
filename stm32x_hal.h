@@ -120,6 +120,55 @@
 		defined (STM32L083xx)
 #include "stm32l0xx_hal.h"
 
+#elif	defined (STM32L100xB)  || \
+		defined (STM32L100xBA) || \
+		defined (STM32L100xC)  || \
+		defined (STM32L151xB)  || \
+		defined (STM32L151xBA) || \
+		defined (STM32L151xC)  || \
+		defined (STM32L151xCA) || \
+		defined (STM32L151xD)  || \
+		defined (STM32L151xDX) || \
+		defined (STM32L151xE)  || \
+		defined (STM32L152xB)  || \
+		defined (STM32L152xBA) || \
+		defined (STM32L152xC)  || \
+		defined (STM32L152xCA) || \
+		defined (STM32L152xD)  || \
+		defined (STM32L152xDX) || \
+		defined (STM32L152xE)  || \
+		defined (STM32L162xC)  || \
+		defined (STM32L162xCA) || \
+		defined (STM32L162xD)  || \
+		defined (STM32L162xDX) || \
+		defined (STM32L162xE)
+#include "stm32l1xx_hal.h"
+
+#elif	defined (STM32L412xx) || \
+		defined (STM32L422xx) || \
+		defined (STM32L431xx) || \
+		defined (STM32L432xx) || \
+		defined (STM32L433xx) || \
+		defined (STM32L442xx) || \
+		defined (STM32L443xx) || \
+		defined (STM32L451xx) || \
+		defined (STM32L452xx) || \
+		defined (STM32L462xx) || \
+		defined (STM32L471xx) || \
+		defined (STM32L475xx) || \
+		defined (STM32L476xx) || \
+		defined (STM32L485xx) || \
+		defined (STM32L486xx) || \
+		defined (STM32L496xx) || \
+		defined (STM32L4A6xx) || \
+		defined (STM32L4R5xx) || \
+		defined (STM32L4R7xx) || \
+		defined (STM32L4R9xx) || \
+		defined (STM32L4S5xx) || \
+		defined (STM32L4S7xx) || \
+		defined (STM32L4S9xx)
+#include "stm32l4xx_hal.h"
+
 #else
 #warning Target MCU is undefined. The __FILE__ is useless.
 
